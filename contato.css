@@ -1,4 +1,4 @@
-<style>
+
 form {
 	width:500px;
 	margin: auto;
@@ -12,7 +12,7 @@ input, textarea{
 
 input:hover, textarea:hover{
     background-color: #dddddd;	
-    size:40px;
+    
 }
 fieldset{
 	border-color:#cecece;
@@ -46,4 +46,4 @@ btn-large {
   width: 340px;
 }
 
-</style>
+
