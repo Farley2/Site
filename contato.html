@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+      <head>
+	      <title>Animais para adotar</title>
+	      <meta charset="UTF-8">
+	      <meta name="description" content="Site de animais para adoção">
+	      <meta name="keywords" content="Animais,Adoção,Cachorro,Gato,Raça,pet">
+	      <meta name="author" content="Farley">
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="menu.css">
+<style>
+form {
+	width:500px;
+	margin: auto;
+}
+input, textarea{
+	font-family: sans-sherif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+input:hover, textarea:hover{
+    background-color: #dddddd;	
+    size:40px;
+}
+fieldset{
+	border-color:#cecece;
+	margin:20px;
+}
+fieldset#sexo{
+	width:150px;
+}
+legend{
+	 color: #888888;
+	 font-weight:bold;
+	 font-size: 13pt;
+	 font-family: sans-serif;
+}
+input#btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13;
+  width: 165px;
+  height: 35px;
+  background-color: #0066b8;
+  padding: 9px 50px;
+  border: none;
+  color: white;
+  width:200px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+btn-large {
+  width: 340px;
+}
+
+</style>
+      </head>
+	  
+	  
+      <body>
+</header>
+
+<nav id="menu">
+    <h1>Menu Principal</h1>
+	<ul> 
+		<li><a href="index.html">Home</a></li>
+
+		<li><a href="adotar.html">Adotar</a></li>
+
+		<li><a href="contato.html">Contato</a></li>
+
+	</UL>
+</nav>
+</header>
+
+
+
+<section id="corpo-full">
+  <article id="noticia-principal">
+    <header id="cabecalho-artigo">
+     
+     <h1>Formulário de Contato</h1>
+   
+     <h3 class="direita">Envie nos uma mensagem</h3>
+	</header>  
+<form method="post" id="fContato" action="mailto:adoção@gmail.com"/>   
+<fieldset id="usuario">
+    <legend>Identificação do Usuário</legend>
+    <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"></p>
+    <p><label for="cMail">E-mail:</label><input type="email" name="tmail" id="cMail" size="20" maxlength="40" placeholder="E-mail"</p>
+    <p><label for="cMensagem">Mensagem:</label><br>
+<textarea rows="10" cols="25" name="tMensagem" id="cMensagem" maxlength="150"></textarea></p>  
+</fieldset>
+
+
+
+<input type="submit" name="tEnviar" id="btn"/>
+</form>
+  </article>
+</section>
+</body>
+</html>
